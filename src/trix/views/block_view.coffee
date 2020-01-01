@@ -24,6 +24,7 @@ class Trix.BlockView extends Trix.ObjectView
       nodes
     else
       element = makeElement(Trix.config.blockAttributes.default.tagName)
+      element.className = css.paragraph
       element.appendChild(node) for node in nodes
       [element]
 

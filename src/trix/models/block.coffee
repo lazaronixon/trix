@@ -102,7 +102,7 @@ class Trix.Block extends Trix.Object
     getBlockConfig(@getLastAttribute())?.terminal
 
   breaksOnReturn: ->
-    getBlockConfig(@getLastAttribute())?.breakOnReturn
+    getBlockConfig(@getLastAttribute() ? "default")?.breakOnReturn
 
   findLineBreakInDirectionFromPosition: (direction, position) ->
     string = @toString()

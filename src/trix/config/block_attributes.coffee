@@ -2,6 +2,7 @@ Trix.config.blockAttributes = attributes =
   default:
     tagName: "div"
     parse: false
+    breakOnReturn: true
   quote:
     tagName: "blockquote"
     nestable: true

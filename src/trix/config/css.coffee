@@ -1,4 +1,5 @@
 Trix.config.css =
+  paragraph: "p"
   attachment: "attachment"
   attachmentCaption: "attachment__caption"
   attachmentCaptionEditor: "attachment__caption-editor"
